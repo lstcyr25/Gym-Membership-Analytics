@@ -1,5 +1,4 @@
 # Gym-Membership-Analytics
-# Gym Membership Analytics Dashboard
 
 ## 📊 Overview
 
