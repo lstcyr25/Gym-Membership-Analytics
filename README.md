@@ -85,16 +85,6 @@ An interactive dashboard was created to visualize gym utilization, member engage
 
 ---
 
-## 🧠 What I Learned
-
-* Cleaning and validating real-world datasets using SQL Server
-* Performing exploratory data analysis with SQL queries
-* Building interactive dashboards in Tableau Public
-* Applying business intelligence concepts to operational gym data
-* Presenting analytical findings through data storytelling
-
----
-
 ## 🔗 Live Dashboard
 
 https://public.tableau.com/app/profile/larson.st.cyr/viz/GymMembershipAnalytics/GymMembershipAnalyticsDashboard
@@ -104,4 +94,15 @@ https://public.tableau.com/app/profile/larson.st.cyr/viz/GymMembershipAnalytics/
 ## 📸 Dashboard Preview
 
 <img width="1920" height="1020" alt="Gym-Membership-Dashboard" src="https://github.com/user-attachments/assets/f2fc8339-f8e1-4c3a-9851-570b1169b66c" />
+
+
+---
+
+## 🧠 What I Learned
+
+* Cleaning and validating real-world datasets using SQL Server
+* Performing exploratory data analysis with SQL queries
+* Building interactive dashboards in Tableau Public
+* Applying business intelligence concepts to operational gym data
+* Presenting analytical findings through data storytelling
 
