@@ -151,9 +151,8 @@ ORDER BY total_visits DESC;
 
 
 
-/*--------------------------------------------------------
-    Sauna Usage by Gender
---------------------------------------------------------*/
+------    Sauna Usage by Gender ------
+
 
 SELECT 
     gender,
@@ -163,9 +162,8 @@ GROUP BY gender;
 
 
 
-/*--------------------------------------------------------
-    Personal Training Adoption Rate
---------------------------------------------------------*/
+------ Personal Training Adoption Rate ------
+
 
 SELECT 
     membership_type,
@@ -180,9 +178,8 @@ GROUP BY membership_type;
 
 
 
-/*--------------------------------------------------------
-    Average Weekly Visits by Age Group
---------------------------------------------------------*/
+------ Average Weekly Visits by Age Group ------
+
 
 SELECT
     CASE
@@ -210,9 +207,8 @@ ORDER BY avg_weekly_visits DESC;
 
 
 
-/*--------------------------------------------------------
-    Member Engagement Score
---------------------------------------------------------*/
+------ Member Engagement Score ------
+
 
 SELECT
     id,
@@ -229,9 +225,8 @@ ORDER BY engagement_score DESC;
 
 
 
-/*--------------------------------------------------------
-    Average Member Age by Membership Type
---------------------------------------------------------*/
+------ Average Member Age by Membership Type ------
+
 
 SELECT
     membership_type,
@@ -241,9 +236,8 @@ GROUP BY membership_type;
 
 
 
-/*--------------------------------------------------------
-    Drink Purchase Behavior
---------------------------------------------------------*/
+------ Drink Purchase Behavior ------
+
 
 SELECT
     purchases_drink,
@@ -253,9 +247,8 @@ GROUP BY purchases_drink;
 
 
 
-/*--------------------------------------------------------
-    Most Requested Personal Trainers
---------------------------------------------------------*/
+------ Most Requested Personal Trainers ------
+
 
 SELECT
     personal_trainer_name,
@@ -267,9 +260,8 @@ ORDER BY total_clients DESC;
 
 
 
-/*--------------------------------------------------------
-    Most Popular Group Fitness Classes
---------------------------------------------------------*/
+------ Most Popular Group Fitness Classes ------
+
 
 SELECT
     TRIM(value) AS class_name,
@@ -281,9 +273,8 @@ ORDER BY popularity DESC;
 
 
 
-/*--------------------------------------------------------
-    Membership Percentage Breakdown
---------------------------------------------------------*/
+------ Membership Percentage Breakdown ------
+
 
 SELECT
     membership_type,
